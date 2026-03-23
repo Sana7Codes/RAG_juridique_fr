@@ -1,0 +1,16 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets — NE JAMAIS commiter
+.env
+
+# Index FAISS (reconstruit via ingest.py)
+faiss_index/
+
+# Conversations sauvegardées (données utilisateur locales)
+conversations/
+
+# macOS
+.DS_Store
